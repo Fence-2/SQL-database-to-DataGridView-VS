@@ -22,7 +22,7 @@ namespace OutputToDataGridView
 
         private void LoadData()
         {
-            string connStr = "server=localhost;user=root;database=univercity_catalog;password=0000;";
+            string connStr = "server=localhost;user=root;database=univercity_catalog;password=1234321;";
 
             MySqlConnection myConnection = new MySqlConnection(connStr);
 
